@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inherit Events</title>
+</head>
+<body>
+
+    <!-- Form preventDefault-->
+    Form for preventDefault
+    <form id="form" href="#">
+        <label for="title">Title</label>
+        <input type="text" name="title" id="title"/>
+
+        <label for="body">Body</label>
+        <input type="text" name="body" id="body" />
+
+        <label for="userId">User ID</label>
+        <input type="number" name="userId" id="userId" />
+
+        <input type="submit">
+    </form>
+
+    <!-- Form href -->
+    Form href
+    <form action="https://www.google.com/">
+        <label for="query">Query</label>
+        <input type="text" name="query" id="query"/>
+        <input type="submit" />
+    </form>
+    
+    <!-- These next two anchor tags will lead you to a section of the same page using the href and id of the selected element -->
+
+    <!-- This internal link will send you to the element with the id of 'pizza' -->
+    <a href="#pizza">🍕</a>
+    <!-- This internal link will send you to the element with the id of 'burger' -->
+    <a href="#burger">🍔</a>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam erat velit scelerisque in dictum non consectetur a. Ac orci phasellus egestas tellus. Aliquam purus sit amet luctus venenatis lectus. Nibh cras pulvinar mattis nunc sed blandit libero volutpat. Sit amet aliquam id diam maecenas ultricies. Tincidunt augue interdum velit euismod in pellentesque massa. Tortor at risus viverra adipiscing at in tellus integer feugiat. Ut etiam sit amet nisl purus in. A scelerisque purus semper eget duis at tellus at urna. Massa massa ultricies mi quis hendrerit dolor magna eget est. Orci dapibus ultrices in iaculis nunc sed augue. Nulla aliquet porttitor lacus luctus accumsan tortor posuere. Enim facilisis gravida neque convallis a cras semper auctor neque. Et tortor consequat id porta nibh venenatis. Magnis dis parturient montes nascetur ridiculus mus mauris. Tempus imperdiet nulla malesuada pellentesque. Ligula ullamcorper malesuada proin libero nunc consequat interdum. Adipiscing enim eu turpis egestas pretium aenean. 
+        Enim tortor at auctor urna nunc. Vulputate dignissim suspendisse in est ante. Id ornare arcu odio ut sem. In arcu cursus euismod quis viverra nibh cras. Convallis tellus id interdum velit. Etiam non quam lacus suspendisse faucibus interdum posuere lorem. Aenean et tortor at risus. Enim sit amet venenatis urna. Tellus mauris a diam maecenas. In cursus turpis massa tincidunt dui ut ornare lectus. Amet justo donec enim diam vulputate ut pharetra. Nunc eget lorem dolor sed viverra ipsum. Semper quis lectus nulla at volutpat diam ut venenatis. Sagittis orci a scelerisque purus semper eget duis. Non enim praesent elementum facilisis leo. Urna molestie at elementum eu facilisis sed.
+    </p>
+
+    <h2 id="pizza">Clicking 🍕 sends you here</h2>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam erat velit scelerisque in dictum non consectetur a. Ac orci phasellus egestas tellus. Aliquam purus sit amet luctus venenatis lectus. Nibh cras pulvinar mattis nunc sed blandit libero volutpat. Sit amet aliquam id diam maecenas ultricies. Tincidunt augue interdum velit euismod in pellentesque massa. Tortor at risus viverra adipiscing at in tellus integer feugiat. Ut etiam sit amet nisl purus in. A scelerisque purus semper eget duis at tellus at urna. Massa massa ultricies mi quis hendrerit dolor magna eget est. Orci dapibus ultrices in iaculis nunc sed augue. Nulla aliquet porttitor lacus luctus accumsan tortor posuere. Enim facilisis gravida neque convallis a cras semper auctor neque. Et tortor consequat id porta nibh venenatis. Magnis dis parturient montes nascetur ridiculus mus mauris. Tempus imperdiet nulla malesuada pellentesque. Ligula ullamcorper malesuada proin libero nunc consequat interdum. Adipiscing enim eu turpis egestas pretium aenean. 
+        Enim tortor at auctor urna nunc. Vulputate dignissim suspendisse in est ante. Id ornare arcu odio ut sem. In arcu cursus euismod quis viverra nibh cras. Convallis tellus id interdum velit. Etiam non quam lacus suspendisse faucibus interdum posuere lorem. Aenean et tortor at risus. Enim sit amet venenatis urna. Tellus mauris a diam maecenas. In cursus turpis massa tincidunt dui ut ornare lectus. Amet justo donec enim diam vulputate ut pharetra. Nunc eget lorem dolor sed viverra ipsum. Semper quis lectus nulla at volutpat diam ut venenatis. Sagittis orci a scelerisque purus semper eget duis. Non enim praesent elementum facilisis leo. Urna molestie at elementum eu facilisis sed.
+    </p>
+
+
+    <p>Content in between gets skipped, since that's the point</p>
+
+    <h2 id="burger">Clicking 🍔 sends you here.</h2>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam erat velit scelerisque in dictum non consectetur a. Ac orci phasellus egestas tellus. Aliquam purus sit amet luctus venenatis lectus. Nibh cras pulvinar mattis nunc sed blandit libero volutpat. Sit amet aliquam id diam maecenas ultricies. Tincidunt augue interdum velit euismod in pellentesque massa. Tortor at risus viverra adipiscing at in tellus integer feugiat. Ut etiam sit amet nisl purus in. A scelerisque purus semper eget duis at tellus at urna. Massa massa ultricies mi quis hendrerit dolor magna eget est. Orci dapibus ultrices in iaculis nunc sed augue. Nulla aliquet porttitor lacus luctus accumsan tortor posuere. Enim facilisis gravida neque convallis a cras semper auctor neque. Et tortor consequat id porta nibh venenatis. Magnis dis parturient montes nascetur ridiculus mus mauris. Tempus imperdiet nulla malesuada pellentesque. Ligula ullamcorper malesuada proin libero nunc consequat interdum. Adipiscing enim eu turpis egestas pretium aenean. 
+        Enim tortor at auctor urna nunc. Vulputate dignissim suspendisse in est ante. Id ornare arcu odio ut sem. In arcu cursus euismod quis viverra nibh cras. Convallis tellus id interdum velit. Etiam non quam lacus suspendisse faucibus interdum posuere lorem. Aenean et tortor at risus. Enim sit amet venenatis urna. Tellus mauris a diam maecenas. In cursus turpis massa tincidunt dui ut ornare lectus. Amet justo donec enim diam vulputate ut pharetra. Nunc eget lorem dolor sed viverra ipsum. Semper quis lectus nulla at volutpat diam ut venenatis. Sagittis orci a scelerisque purus semper eget duis. Non enim praesent elementum facilisis leo. Urna molestie at elementum eu facilisis sed.
+    </p>
+
+    <script src="script.js"></script>
+</body>
+</html>

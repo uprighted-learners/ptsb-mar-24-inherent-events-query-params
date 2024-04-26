@@ -1,0 +1,8 @@
+/* Give both label and input elements the display of block */
+label, input {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
